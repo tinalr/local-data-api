@@ -7,10 +7,13 @@
   "name": "local-data-api",
   "version": "1.0.0",
   "description": "RESTful API on a local server that houses local data",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
   "author": "Christina Rontell",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
