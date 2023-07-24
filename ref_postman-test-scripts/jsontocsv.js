@@ -1,3 +1,5 @@
+//CONVERTS A JSON RES TO CSV FORMAT; TO BE USED IN TESTS IN POSTMAN REQUEST
+
 const jsonStr = pm.response.text();
 const jsonObj = JSON.parse(jsonStr);
 const nestedObj = jsonObj.result;
